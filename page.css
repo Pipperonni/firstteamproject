@@ -369,11 +369,13 @@
 
 .main-container h2{
     font-size: 30px;
+    margin-top: 50px;
 }
 
 .how-it-works-p p{
     font-size: 30px;
     font-weight: 700;
+    margin: 80px 0;
 }
 
 .collect-container{
@@ -415,6 +417,9 @@
     width: 700px;
     font-size: 30px;
     font-weight: 700;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
     
 }
 
