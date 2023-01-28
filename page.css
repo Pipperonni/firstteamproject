@@ -1,0 +1,571 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    font-family: 'Roboto', sans-serif
+}
+
+/* 
+* Start Main Styling
+*/
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.how-it-works-p{
+    width: 700px;
+    text-align: center;
+}
+
+.main-container h2{
+    font-size: 30px;
+}
+
+.how-it-works-p p{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.collect-container{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 500px;
+    border: 1px solid darkgray;
+    border-radius: 25px;
+
+}
+
+.collect-image{
+    width: 332px;
+    height: 272px;
+    margin: 80px 60px;
+}
+
+.collect-text-box{
+    background-color:#234FEF;
+    padding: 30px 30px;
+    border-radius: 0px 24px 24px 0px;    
+}
+
+.collect-text-box h2{
+    color: white;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-bottom: 80px;
+    margin-top: 60px;
+}
+
+.collect-text-box p{
+    color: white;
+    font-size: 20px;
+}
+
+.last-p{
+    width: 700px;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+
+.get-paid-box{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 550px;
+    margin-right: 50px;
+    
+    
+}
+
+.get-paid-box img{
+    width: 400px;
+    height: 400px;
+    margin-top: 90px;
+    margin-left: 200px;
+    
+}
+
+.get-paid-text-box{
+    background-color: #234FEF;
+    padding: 30px 30px;
+    border-radius: 0px 24px 24px  0; 
+    margin-left: 80px;
+}
+
+.get-paid-text-box h2{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.get-paid-text-box p{
+    color: white;
+    font-size: 20px;
+   
+}
+/* 
+* End Main Styling
+*/
+
+/* 
+* Start Footer Styling
+*/
+
+.foot-container{
+    width: 1440px;
+    height: 400px;
+    background-color: #234FEF;
+    margin: 125px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foot-container h2{
+    font-size: 35px;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 5px;
+}
+
+.foot-container-p{
+    font-size: 20px;
+    color: white;
+}
+
+.foot-btns{
+    display: flex;
+    width: 450px;
+    height: 52px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-get{    
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 10px;
+    background-color: rgb(142, 185, 77);
+    width: 225px;
+    height: 50px;    
+    border-radius: 10px;    
+}
+
+.get-s{
+    margin-left: 50px;
+    color: antiquewhite;
+    font-weight: 900;
+}
+
+.arrows{
+    margin-right: 10px;
+}
+
+.foot-chat{
+    width: 190px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    text-decoration: none;
+}
+
+.foot-chat-image{
+
+}
+
+.foot-chat-p{
+    font-size: 18px;
+    margin-right: 15px;
+    color: #234FEF;
+    font-weight: 900;
+}
+
+
+.foot-bottom{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.dot{
+    background-color: antiquewhite;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.foot-bottom-text{
+    font-size: 15px;
+    color: antiquewhite;
+}
+/* 
+* End Footer Styling
+*/
+
+
+
+
+
+
