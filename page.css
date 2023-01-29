@@ -9,6 +9,14 @@
 a {
     text-decoration: none;
 }
+
+
+hr{
+    width: 720px;
+    margin-top: 100px;
+}
+
+
 /*
 ! End Global
 */
@@ -175,6 +183,7 @@ header {
     font-size:20px;
 }
 
+
 /*
 ! End Hero       
 */
@@ -334,6 +343,7 @@ hr {
     margin-left: 45px;
 }
 
+
 /*
 * Start Solutions
 */
@@ -342,351 +352,120 @@ hr {
 ! End Solutions
 */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* 
+* Start Bottom Main Styling
+*/
+
+.bottom-main{
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bottom-main-h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.bottom-main-learn-more{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto 0;
+    align-items: center;
+}
+
+.bottom-main-email-task{
+    display: flex;
+    margin: 0 auto 60px;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.bottom-main-email{
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-main-images{
+    background-color: rgb(222, 246, 254);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.bottom-main-task{
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.bottom-main-analytics-project{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;   
+}
+
+.bottom-main-analytics{
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.bottom-main-project{
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-main-h3{
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.bottom-main-p{
+    font-size: 16px;
+    text-align: center;   
+}
+
+.bottom-main-btn{
+    background-color: whitesmoke;
+    width: 175px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.a-lm-btn{
+    margin-left: 45px;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.a-arrow-btn{
+    color: black;
+    margin-right: 8px;
+    font-size: 14px;
+}
+/* 
+* End Bottom Main Styling
+*/
 
 *{
     font-family: 'Roboto', sans-serif
@@ -771,9 +550,7 @@ hr {
     justify-content: space-between;
     width: 1200px;
     height: 550px;
-    margin-right: 50px;
-    
-    
+    margin-right: 50px;      
 }
 
 .get-paid-box img{
@@ -787,7 +564,7 @@ hr {
 .get-paid-text-box{
     background-color: #234FEF;
     padding: 30px 30px;
-    border-radius: 0px 24px 24px  0; 
+    border-radius: 0px 24px 24px 0; 
     margin-left: 80px;
 }
 
@@ -844,7 +621,7 @@ hr {
 
 .foot-get{    
     text-decoration: none;
-    font-size: 23px;
+    
     color: white;
     display: flex;
     justify-content: space-between;
@@ -857,9 +634,10 @@ hr {
 }
 
 .get-s{
-    margin-left: 50px;
+    margin-left: 45px;
     color: antiquewhite;
     font-weight: 900;
+    font-size: 20px;
 }
 
 .arrows{
@@ -878,6 +656,7 @@ hr {
 }
 
 .foot-chat-image{
+
     width:20px;
     height: 20px;
     margin-left: 25px;
