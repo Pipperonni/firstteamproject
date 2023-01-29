@@ -49,6 +49,10 @@ header {
     width:700px;
 }
 
+.nav-links-a{
+    color: black;
+}
+
 .nav-links-right {
     display: flex;
     align-items: center;
@@ -410,19 +414,19 @@ hr {
     height: 56px;
 }
 
-.images-display{
+.images-check{
     width: 89px;
-    height: 56px;
+    height: 86px;
 }
 
-.images-display{
+.images-graph{
     width: 89px;
-    height: 56px;
+    height: 86px;
 }
 
-.images-display{
+.images-cal{
     width: 89px;
-    height: 56px;
+    height: 86px;
 }
 
 .bottom-main-task{
