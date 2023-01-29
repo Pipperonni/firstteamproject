@@ -589,6 +589,30 @@ header {
     height: 150px;
     border-radius: 50%;
     border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.images-display{
+    width: 89px;
+    height: 56px;
+}
+
+.images-display{
+    width: 89px;
+    height: 56px;
+}
+
+.images-display{
+    width: 89px;
+    height: 56px;
+}
+
+.images-display{
+    width: 89px;
+    height: 56px;
 }
 
 .bottom-main-task{
