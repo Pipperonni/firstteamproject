@@ -201,12 +201,7 @@ header {
     width:1575;
 }
 
-hr {
-    margin-top: 90px;
-    margin-bottom: 80px;
-    margin-left: 300px;
-    margin-right:300px;
-}
+
 /* ? change container*/
 .torso-top {
     display: flex;
@@ -368,6 +363,7 @@ hr {
     align-items: center;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 50px;
 }
 
 .bottom-main-h2{
@@ -516,7 +512,10 @@ hr {
 .how-it-works-p{
     width: 700px;
     text-align: center;
+    
 }
+
+
 
 .main-container h2{
     font-size: 30px;
